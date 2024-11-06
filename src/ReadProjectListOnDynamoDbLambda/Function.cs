@@ -32,7 +32,9 @@ public class Function
         {
             var scanRequest = new ScanRequest
             {
-                TableName = "projects"
+                TableName = "projects",
+                ConsistentRead = true
+                
             };
 
             try
