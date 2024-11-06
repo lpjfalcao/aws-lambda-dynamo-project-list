@@ -1,0 +1,84 @@
+# Arquivos e pastas específicos do .NET
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dbmdl
+*.jfm
+*.pfx
+*.publishsettings
+
+# Arquivos de compilação
+*.dll
+*.exe
+*.pdb
+*.cache
+*.bak
+
+# Arquivos de IDE
+.idea
+.vs/
+.vscode/
+*.ncrunchsolution
+*.ncrunchproject
+_NCrunch_*
+*.njsproj.user
+
+# Arquivos de build
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Arquivos específicos do Lambda
+*.zip
+
+# Arquivos de configuração local
+appsettings.Development.json
+appsettings.local.json
+
+# Arquivos de dependências
+packages/
+*.nupkg
+
+# Arquivos de teste
+TestResults/
+
+# Arquivos temporários
+*.tmp
+*.swp
+*~
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivos de cobertura de código
+*.opencover.xml
+*.coverlet.json
+
+# Arquivos de publicação
+PublishProfiles/
+*.pubxml
+*.pubxml.user
+
+# Outros
+[Tt]emp/
+[Tt]mp/
